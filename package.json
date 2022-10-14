@@ -1,0 +1,41 @@
+{
+  "name": "egpaid-node",
+  "version": "1.0.0",
+  "description": "Node API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "souvik",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "macaddress": "^0.5.3",
+    "md5": "^2.3.0",
+    "moment-timezone": "^0.5.31",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "node-cron": "^3.0.0",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.4.17",
+    "nodemon": "^2.0.4",
+    "paytm-pg-node-sdk": "^1.0.4",
+    "paytmchecksum": "^1.5.0",
+    "percentage-regex": "^3.0.0",
+    "pm2": "^5.2.0",
+    "sharp": "^0.26.3",
+    "slug": "^3.3.4",
+    "slugify": "^1.4.6",
+    "url": "^0.11.0",
+    "uuid": "^8.3.2"
+  }
+}
